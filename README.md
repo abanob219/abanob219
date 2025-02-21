@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Abanob Sadek</h1>
 <h3 align="center">💻 Software Developer</h3>
 
-<h2 align="left">Hi 👋! My name is Abanob and I'm a Software Developer from the USA.</h2>
+<h2 align="left">Hi 👋! My name is Abanob and I'm a Software Developer.</h2>
 
 - 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/abanob-sadek-909640235/)  
 - 📫 How to reach me abanobsadek2@gmail.com 
