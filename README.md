@@ -42,6 +42,8 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/abanob219/abanob219/output/snake.svg" alt="Snake animation" />
+![Snake animation](https://github.com/abanob219/abanob219/blob/main/dist/github-contribution-grid-snake.svg)
+
+
 
 
