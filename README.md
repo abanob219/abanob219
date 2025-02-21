@@ -4,7 +4,7 @@
 <h2 align="left">Hi 👋! My name is Abanob and I'm a Software Developer from the USA.</h2>
 
 - 🔗 Connect with me on [LinkedIn](https://www.linkedin.com/in/abanob-sadek-909640235/)  
-- 📫 How to reach me **abanobsadek2@gmail.com**  
+- 📫 How to reach me abanobsadek2@gmail.com 
 - 📄 Check out my resume: [My Resume](https://orange-ansley-4.tiiny.site)  
 
 ###
@@ -42,5 +42,5 @@
 
 <br clear="both">
 
-<img src="https://raw.githubusercontent.com/maurodesouza/maurodesouza/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/abanob219/abanob219/output/snake.svg" alt="Snake animation" />
 
