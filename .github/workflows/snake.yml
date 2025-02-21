@@ -15,13 +15,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate Snake Animation
+      - name: Generate Snake Animation (Dark Theme)
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: black # Change snake color to black
-          color_dots: green, # Set dots to green
+          color_snake: "#00FF00" # Green snake
+          color_dots: "#222222, #444444" # Darker dots for contrast
 
       - name: Set Up Git
         run: |
@@ -35,4 +35,5 @@ jobs:
           git add dist/github-contribution-grid-snake.svg
           git commit -m "Updated snake animation color" || exit 0
           git push origin main
+
 
