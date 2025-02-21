@@ -1,39 +1,9 @@
-name: Generate Snake Animation
-
-on:
-  schedule:
-    - cron: "0 0 * * *" # Runs every day at midnight UTC
-  workflow_dispatch: # Allows manual trigger
-
-permissions:
-  contents: write  # This gives the workflow permission to push changes
-
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Generate Snake Animation (Dark Theme)
+      - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: "#00FF00" # Green snake
-          color_dots: "#222222, #444444" # Darker dots for contrast
-
-      - name: Set Up Git
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions@github.com"
-
-      - name: Push Snake Animation
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git add dist/github-contribution-grid-snake.svg
-          git commit -m "Updated snake animation color" || exit 0
-          git push origin main
-
+          color_snake: black
+          color_dots: "#CCCCCC, #FFFFFF" # Light gray dots for visibility
+          background: transparent
 
