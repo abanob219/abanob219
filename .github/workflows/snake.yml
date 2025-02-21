@@ -3,7 +3,6 @@
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: black
-          color_dots: "#CCCCCC, #FFFFFF" # Light gray dots for visibility
-          background: transparent
-
+          color_snake: "#00FF00" # Bright Green Snake
+          color_dots: "#FFFFFF, #CCCCCC" # Light dots for visibility
+          color_grid: "#222222" # Darker grid background
